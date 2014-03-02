@@ -1,3 +1,39 @@
 body {
   padding-top: 70px;
+  background: url("../img/bg1.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+.jumbotron {
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background: transparent;
+}
+
+.introduction {
+  position: relative;
+}
+
+.distinction {
+	border: 25px solid rgba(0, 0, 0, .5);
+	border-radius: 10px;
+  max-height: 334px;
+}
+
+.distinction iframe {
+  width: 100%;
+  max-height: 284px;
+}
+
+@media (min-width:768px) {
+    .distinction {
+        margin-top: 100px
+    }
 }

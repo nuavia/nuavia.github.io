@@ -1,6 +1,6 @@
 body {
   padding-top: 70px;
-  background: url("../img/bg1.png") no-repeat center center fixed;
+  background: url("../img/bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,3 +37,11 @@ body {
         margin-top: 100px
     }
 }
+
+.blog .row {
+  border-radius: 5px;
+}
+
+.blog .entry {
+}
+

@@ -1,1 +1,1 @@
-This is repository of website of nuavia. The copyright for entire contents belongs to nuavia.
+This is NUAVIA's website repo. The copyright of the entire contents belongs to NUAVIA.

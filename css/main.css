@@ -11,6 +11,11 @@ body {
 	padding: 0;
 }
 
+h1 {
+  color: white;
+  text-shadow: #444 0 1px 1px;
+}
+
 .jumbotron {
   color: white;
   text-shadow: #444 0 1px 1px;
@@ -42,6 +47,88 @@ body {
   border-radius: 5px;
 }
 
-.blog .entry {
+.entry .synopsis, .entry .content {
+  font-family: 'Gentium Book Basic', Georgia, Cambria, 'Times New Roman', Times, serif;
+  font-size: 1.33em;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.1599999964237213px;
+  line-height: 1.9em;
+  color: #F5F5F5;
 }
 
+.entry .synopsis {
+  margin-bottom: 10px;
+}
+
+/*.blog .entry h1 {
+  font-family: 'Gentium Book Basic', Georgia, Cambria, 'Times New Roman', Times, serif;
+}*/
+
+.entry h1 {
+    text-shadow: #444 0 1px 1px;
+}
+
+.entry {
+  background-color: rgba(0,0,0,0.3);
+  color: #FFF;
+}
+
+.entry .date {
+  color: #BBB;
+}
+
+.entry a {
+  color: #F00;
+}
+
+.blog .pager span, .blog .pager li, .blog .pager a {
+  background-color: rgba(0,0,0,0.3);
+  color: #FFF;
+}
+
+.blog .pager :hover {
+  background-color: #F00;
+  color: #FFF;
+}
+
+.navbar {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    margin:25px;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.panel {
+    background-color: rgba(0,0,0,0.3);
+}
+
+address {
+  font-size: 170%;
+  color: #FFF;
+  text-shadow: #444 0 1px 1px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.contact h1 {
+  font-size: 63px;
+}
+
+.contact a {
+  color: #F00;
+}

@@ -9,7 +9,7 @@ title: My Blog
     <div class="entry panel col-sm-12">
       <h1>{{ post.title }}</a></h1>
       <p>
-        <span class="date">{{ post.date | date: "%-d %B %Y" }}</span>
+        <p class="date">{{ post.author }}, {{ post.date | date: "%-d %B %Y" }}</p>
       </p>
       <div class="synopsis">
         {{ post.content | split:"<!-- more -->" | first | strip_html | truncate:400 }}

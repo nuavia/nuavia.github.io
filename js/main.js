@@ -5,5 +5,4 @@ function switchMenu(page) {
 	} else {
 		$(".nav.navbar-nav li a[href='" + page + "']").parent().addClass("active");	
 	}
-    console.log(page);
 }
